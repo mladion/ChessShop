@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1703.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessShop.Server", "Server\ChessShop.Server.csproj", "{B60D1989-47B3-4A0D-B8B6-74ACB1574DF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessShop.Server", "Server\ChessShop.Server.csproj", "{B60D1989-47B3-4A0D-B8B6-74ACB1574DF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessShop.Client", "Client\ChessShop.Client.csproj", "{13FDE4A0-AA6D-48B6-9CF1-4BB975E776CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessShop.Client", "Client\ChessShop.Client.csproj", "{13FDE4A0-AA6D-48B6-9CF1-4BB975E776CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessShop.Shared", "Shared\ChessShop.Shared.csproj", "{56F96129-BE37-4319-9017-2BCE37E56AD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessShop.Shared", "Shared\ChessShop.Shared.csproj", "{56F96129-BE37-4319-9017-2BCE37E56AD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
