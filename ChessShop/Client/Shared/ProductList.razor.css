@@ -23,3 +23,15 @@
 .price {
     color: green;
 }
+
+@media (max-width: 1023.98px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .media-img-wrapper {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+}
