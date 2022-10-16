@@ -1,0 +1,31 @@
+﻿@page "/product/{Id:int}"
+@inject IProductService ProductService
+
+<div class="d-flex align-items-center my-3">
+    @if (product != null)
+    {
+        <div class="media-img-big-wrapper">
+            <img class="media-img-big" src="@product.Image" alt="@product.Title" />
+        </div>
+
+        <div class="flex-grow-1 ms-3">
+            <h2 class="mb-0">@product.Title</h2>
+
+            <p>@product.Description</p>
+
+            @if (product.OriginalPrice > product.Price)
+            {
+                <h6 class="text-muted original-price">$@product.OriginalPrice</h6>
+            }
+
+            <h4 class="price">
+                $@product.Price
+            </h4>
+
+            <button class="btn btn-primary">
+                <i class="oi oi-cart"/>&nbsp;&nbsp;&nbsp;Add to Cart
+            </button>
+        </div>
+    }
+</div>
+
